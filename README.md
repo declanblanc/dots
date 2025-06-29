@@ -2,7 +2,7 @@
 ## dotfiles from my macbook
 
 ### 06/29/25
-I've been messing around with more config stuff lately so I created a fresh repo for my ``~/.config/`. 
+I've been messing around with more config stuff lately so I created a fresh repo for my `~/.config/`. 
 
 Someone showed me [aerospace](https://github.com/nikitabobko/AeroSpace) and I'm absolutely in love with it. 
 I still don't regularly use vim but I use vim motions in vscode so I'm much more comfortable with them then I was 3 months ago.
