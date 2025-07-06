@@ -35,5 +35,12 @@ require("lazy").setup({
   checker = { enabled = true },
 })
 
-require("monokai").setup()
-vim.cmd.colorscheme "monokai"
+require("monokai-pro").setup({
+        -- see plugin's README for options, e.g.:
+        filter = "classic", -- or "spectrum", "classic", "octagon", "ristretto", "machine"
+        -- day_night = { day_filter = 'pro', night_filter = 'spectrum' },
+      })
+
+      -- Finally, tell Neovim to use this colorscheme
+vim.opt.termguicolors = true
+vim.cmd("colorscheme monokai-pro")
