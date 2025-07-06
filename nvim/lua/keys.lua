@@ -18,8 +18,10 @@ vim.keymap.set('n', '<leader>fb', builtin.buffers, { desc = 'Telescope buffers' 
 vim.keymap.set('n', '<leader>fh', builtin.help_tags, { desc = 'Telescope help tags' })
 
 -- keymap to open telescope file browser
-vim.keymap.set("n", "<leader>t", ":Telescope file_browser path=%:p:h select_buffer=true<CR><Esc>")
+vim.keymap.set("n", "<leader>t", ":Telescope file_browser path=%:p:h select_buffer=true<CR><Esc>", {desc = 'Open file browser'})
 
 -- keymap to save
-vim.keymap.set("n", "<leader>w", ":w<CR>")
+vim.keymap.set("n", "<leader>w", ":w<CR>", {desc = 'Save file'})
+
+vim.keymap.set("n", "<leader>a", "G$vH0", {desc = 'Select all'})
 

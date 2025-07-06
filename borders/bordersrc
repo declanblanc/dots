@@ -2,9 +2,9 @@
 
 options=(
 	style=round
-	width=3.0
+	width=5.0
 	hidpi=on
-	active_color=0xffff2f00
+	active_color=0xff66d9ef
 	inactive_color=0xff414550
 )
 
